@@ -1,36 +1,48 @@
 /* Full-screen background with centered mobile container */
 .main-container {
-  height: 100vh;         /* Full viewport height */
-  width: 100vw;          /* Full viewport width */
-  display: flex;         /* Center the mobile container */
-  justify-content: center;
-  align-items: center;
-  background-color: #F7F8F9;  /* Light background */
+	height: 100vh;
+	/* Full viewport height */
+	width: 100vw;
+	/* Full viewport width */
+	display: flex;
+	/* Center the mobile container */
+	justify-content: center;
+	align-items: center;
+	background-color: #f7f8f9;
+	/* Light background */
 }
 
 /* Mobile container - simulating a mobile screen */
 .mobile-container {
-  width: 375px;          /* Typical mobile width */
-  height: 685px;         /* Typical mobile height */
-  background-color: #F7F8F9;
-  border-radius:3px;   /* Rounded corners for the screen effect */
-  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);  /* Mobile shadow */
-  overflow: hidden;      /* Prevent content overflow */
-  border: 2px solid #ccc; /* Border to resemble phone frame */
+	width: 320px;
+	/* Updated mobile width */
+	height: 685px;
+	/* Typical mobile height */
+	background: #f7f8f9 0% 0% no-repeat padding-box !important;
+	opacity: 1 !important;
+	border-radius: 3px;
+	/* Rounded corners for the screen effect */
+	box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+	/* Mobile shadow */
+	overflow: hidden;
+	/* Prevent content overflow */
+	border: 2px solid #ccc;
+	/* Border to resemble phone frame */
 }
 
 /* Add smooth page transition */
 .mobile-container > * {
-  animation: fadeIn 0.5s ease-in-out;
+	animation: fadeIn 0.5s ease-in-out;
 }
 
 @keyframes fadeIn {
-  from {
-    opacity: 0;
-    transform: translateY(-10px);
-  }
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+	from {
+		opacity: 0;
+		transform: translateY(-10px);
+	}
+
+	to {
+		opacity: 1;
+		transform: translateY(0);
+	}
 }

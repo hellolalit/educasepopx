@@ -8,7 +8,7 @@ const Welcome = () => {
   return (
     <div className="welcome">
       <h1>Welcome to PopX</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
       <button className="btn create-btn" onClick={() => navigate("/register")}>
         Create Account
       </button>

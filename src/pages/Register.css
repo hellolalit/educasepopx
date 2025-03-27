@@ -46,10 +46,6 @@
     cursor: pointer;
   }
   
-  .btn:hover {
-    background-color: #5548d4;
-  }
-  
   .back-btn {
     margin-top: 10px;
     background-color: #f0f0f0;
