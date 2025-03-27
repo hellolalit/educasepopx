@@ -16,18 +16,21 @@
 
 .welcome h1 {
 	font-size: 28px;
-	font-weight: 700;
-	color: #000000;
-	margin-bottom: 8px;
-	font-family: "Rubik", sans-serif;
+	font-weight: 600 !important;
 	text-align: left;
+	font-size: 28px;
+	font-weight: 500;
+	letter-spacing: 0px;
+	color: #1d2226 !important;
+	opacity: 1;
+    margin-bottom: 8px;
 }
 
 .welcome p {
 	font-size: 18px;
 	font-weight: 400;
 	color: #1d2226;
-	margin-bottom: 32px;
+	margin-bottom: 25px;
 	text-align: left;
 	font-family: "Rubik", sans-serif;
 	opacity: 0.6;
@@ -51,19 +54,26 @@
 	margin-bottom: 16px;
 }
 
+.create-btn:hover {
+    background-color: #1c09c3 !important;
+  }
+
 .login-btn {
 	background: #6c25ff4b 0% 0% no-repeat padding-box !important;
 	font-family: Rubik;
 	font-size: 16px;
 	font-weight: 500; /* medium */
-	line-height: 17px;
 	font-style: normal;
 	text-align: center;
 	letter-spacing: 0px;
 	color: #1d2226 !important;
 	opacity: 1;
-	margin-bottom: 0;
+	margin-bottom: -25px;
 }
+
+.login-btn:hover {
+    background: #6e25ff74 0% 0% no-repeat padding-box !important;
+  }
 
 @media screen and (max-width: 320px) {
 	.welcome {
