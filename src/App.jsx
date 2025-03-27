@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Welcome from "./pages/Welcome";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import AccountSettings from "./pages/AccountSettings";
+import AccountSettings from "./pages/Accountsettings";
 import "./App.css";  // For layout styling
 
 const App = () => {
