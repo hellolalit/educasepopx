@@ -8,7 +8,7 @@
 	/* Center the mobile container */
 	justify-content: center;
 	align-items: center;
-	background-color: #f7f8f9;
+	background-color: #FFFFFF;
 	/* Light background */
 }
 
@@ -18,7 +18,7 @@
 	/* Updated mobile width */
 	height: 685px;
 	/* Typical mobile height */
-	background: #f7f8f9 0% 0% no-repeat padding-box !important;
+	background: #FFFFFF;
 	opacity: 1 !important;
 	border-radius: 3px;
 	/* Rounded corners for the screen effect */
@@ -44,5 +44,21 @@
 	to {
 		opacity: 1;
 		transform: translateY(0);
+	}
+}
+
+/* Tablet and Mobile Styles */
+@media screen and (max-width: 1024px) {
+	.main-container {
+		height: 100%;
+		align-items: flex-start;
+	}
+	
+	.mobile-container {
+		width: 100%;
+		height: 100vh;
+		border: none;
+		border-radius: 0;
+		box-shadow: none;
 	}
 }
