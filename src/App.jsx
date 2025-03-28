@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Welcome from "./pages/Welcome";
 import Login from "./pages/Login";
 import Register from "./pages/Register";
-import Accountsettings from "./pages/Accountsettings";
+import AccountSettings from "./pages/AccountSettings";
 import "./App.css";  // For layout styling
 
 const App = () => {
@@ -15,7 +15,7 @@ const App = () => {
             <Route path="/" element={<Welcome />} />
             <Route path="/login" element={<Login />} />
             <Route path="/register" element={<Register />} />
-            <Route path="/settings" element={<Accountsettings />} />
+            <Route path="/settings" element={<AccountSettings />} />
           </Routes>
         </div>
       </div>
