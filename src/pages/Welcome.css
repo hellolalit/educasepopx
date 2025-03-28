@@ -11,7 +11,7 @@
 	padding: 16px;
 	font-family: "Rubik", sans-serif;
 	background-color: #ffffff;
-	padding-bottom: 200px;
+	padding-bottom: 180px;
 }
 
 .welcome h1 {
@@ -22,7 +22,6 @@
 	color: #1d2226 !important;
 	opacity: 1;
 	margin-bottom: 8px;
-	white-space: nowrap;
 }
 
 .welcome p {
@@ -74,58 +73,13 @@
 	background: #6e25ff74 0% 0% no-repeat padding-box !important;
 }
 
-/* Tablet and Mobile Styles */
+/* Tablet and Mobile Styles - ONLY remove container, keep exact same layout */
 @media screen and (max-width: 1024px) {
 	.welcome {
 		width: 100%;
 		height: 100vh;
-		display: flex;
-		flex-direction: column;
-		align-items: center;
-		text-align: center;
-		padding: 0 20px;
-	}
-
-	.welcome h1,
-	.welcome p {
-		text-align: center;
-		width: 100%;
-		max-width: 320px;
-	}
-
-	.btn {
-		width: 100%;
-		max-width: 320px;
-	}
-}
-
-/* Portrait mode adjustments */
-@media screen and (max-width: 1024px) and (orientation: portrait) {
-	.welcome {
-		justify-content: center;
-		padding-bottom: 0;
-	}
-}
-
-/* Landscape mode adjustments */
-@media screen and (max-width: 1024px) and (orientation: landscape) {
-	.welcome {
-		justify-content: center;
-		padding-bottom: 0;
-	}
-}
-
-/* Mobile specific adjustments */
-@media screen and (max-width: 480px) {
-	.welcome {
 		justify-content: flex-end;
 		padding: 16px;
-		padding-bottom: 200px;
-	}
-
-	.welcome h1,
-	.welcome p,
-	.btn {
-		text-align: left;
+		padding-bottom: 180px;
 	}
 }
