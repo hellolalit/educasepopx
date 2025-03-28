@@ -76,10 +76,10 @@
 /* Tablet and Mobile Styles - ONLY remove container, keep exact same layout */
 @media screen and (max-width: 1024px) {
 	.welcome {
-		width: 100%;
+		width: 95.3%;
 		height: 100vh;
 		justify-content: flex-end;
 		padding: 16px;
-		padding-bottom: 180px;
+		padding-bottom: 43px;
 	}
 }
