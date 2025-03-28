@@ -1,6 +1,6 @@
 import React from "react";
 import { useNavigate } from "react-router-dom";
-import "./Accountsettings.css";
+import "./AccountSettings.css";
 
 const AccountSettings = () => {
   const navigate = useNavigate();
@@ -21,4 +21,4 @@ const AccountSettings = () => {
   );
 };
 
-export default Accountsettings;
+export default AccountSettings;
